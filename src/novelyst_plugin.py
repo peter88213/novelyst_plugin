@@ -52,9 +52,11 @@ class Plugin:
 
     def on_close(self, event=None):
         """Actions to be performed when a project is closed."""
+        pass
 
     def on_quit(self, event=None):
         """Actions to be performed when novelyst is closed."""
+        pass
 
     def _hello(self):
         message = 'Hello, world!'
