@@ -25,6 +25,8 @@ The [novelyst](https://peter88213.github.io/novelyst/) Python program helps auth
 
 See the [instructions for use](usage)
 
+---
+
 ## License
 
 This is Open Source software, and the *novelyst_plugin* plugin is licensed under GPLv3. See the
