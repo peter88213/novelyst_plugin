@@ -23,7 +23,7 @@ The [novelyst](https://peter88213.github.io/novelyst/) Python program helps auth
 
 ## Usage
 
-
+See the [instructions for use](usage)
 
 ## License
 
