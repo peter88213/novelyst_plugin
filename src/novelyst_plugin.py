@@ -26,7 +26,7 @@ class Plugin:
     VERSION = '@release'
     NOVELYST_API = '4.28'
     DESCRIPTION = 'Example plugin'
-    URL = 'https://peter88213.github.io/novelyst'
+    URL = 'https://peter88213.github.io/novelyst_plugin'
 
     def install(self, ui):
         """Add a submenu to the 'Tools' menu.
