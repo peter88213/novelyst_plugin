@@ -5,7 +5,11 @@ Copyright (c) 2023 Peter Triesberger
 For further information see https://github.com/peter88213/novelyst_plugin
 License: GNU GPLv3 (https://www.gnu.org/licenses/gpl-3.0.en.html)
 """
+import sys
+import os
 import tkinter as tk
+import locale
+import gettext
 import webbrowser
 from novelystlib.plugin.plugin_base import PluginBase
 
