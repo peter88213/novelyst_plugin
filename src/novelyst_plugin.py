@@ -1,6 +1,6 @@
 """Plugin template for novelyst.
 
-equires Python 3.6+
+Requires Python 3.6+
 Copyright (c) 2023 Peter Triesberger
 For further information see https://github.com/peter88213/novelyst_plugin
 License: GNU GPLv3 (https://www.gnu.org/licenses/gpl-3.0.en.html)
@@ -33,10 +33,7 @@ class Plugin(PluginBase):
     """Template plugin class.
     
     Public methods:
-        disable_menu() -- disable menu entries when no project is open.
-        enable_menu() -- enable menu entries when a project is open.
-        on_close() -- Actions to be performed when a project is closed.       
-        on_quit() -- Actions to be performed when novelyst is closed.               
+        install(ui) -- Install the plugin and extend the novelyst user interface.
     """
     VERSION = '@release'
     NOVELYST_API = '4.30'
@@ -45,7 +42,7 @@ class Plugin(PluginBase):
     _HELP_URL = 'https://peter88213.github.io/novelyst_plugin/usage'
 
     def install(self, ui):
-        """Add a submenu to the 'Tools' menu.
+        """Install the plugin and extend the novelyst user interface.
         
         Positional arguments:
             ui -- reference to the NovelystTk instance of the application.
