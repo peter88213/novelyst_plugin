@@ -39,7 +39,7 @@ class Plugin(PluginBase):
         on_quit() -- Actions to be performed when novelyst is closed.               
     """
     VERSION = '@release'
-    NOVELYST_API = '4.31'
+    NOVELYST_API = '4.30'
     DESCRIPTION = 'Plugin template'
     URL = 'https://peter88213.github.io/novelyst_plugin'
     _HELP_URL = 'https://peter88213.github.io/novelyst_plugin/usage'
