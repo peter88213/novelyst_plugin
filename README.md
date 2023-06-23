@@ -2,11 +2,7 @@
 
 A plugin for [novelyst](https://peter88213.github.io/novelyst)
 
-
 For more information, see the [project homepage](https://peter88213.github.io/novelyst_plugin) with description and download instructions.
-
-## Usage
-
 
 ## License
 
